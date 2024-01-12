@@ -54,5 +54,5 @@ jobs:
           sudo -S docker load < /tmp/docker.tar.gz
           sudo -S docker stop docker || true
           sudo -S docker rm docker || true
-          sudo -S docker run -itd -p 8081:80 docker:latest
+          sudo -S docker run -itd -p 8084:80 docker:latest
         '
